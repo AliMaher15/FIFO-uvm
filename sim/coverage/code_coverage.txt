@@ -1,0 +1,58 @@
+Coverage Report Summary Data by instance
+
+=================================================================================
+=== Instance: /fifo_tb_top/dut/fifomem_0
+=== Design Unit: work.fifo_memory
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         1         1    50.00%
+    Statements                       3         3         0   100.00%
+    Toggles                         50        50         0   100.00%
+
+=================================================================================
+=== Instance: /fifo_tb_top/dut/w_ptr_full_0
+=== Design Unit: work.w_ptr_full
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         4         0   100.00%
+    Expressions                      1         1         0   100.00%
+    Statements                      11        11         0   100.00%
+    Toggles                         54        54         0   100.00%
+
+=================================================================================
+=== Instance: /fifo_tb_top/dut/w_sync_0
+=== Design Unit: work.synchronizer
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+    Toggles                         28        28         0   100.00%
+
+=================================================================================
+=== Instance: /fifo_tb_top/dut/r_ptr_empty_0
+=== Design Unit: work.r_ptr_empty
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         4         0   100.00%
+    Expressions                      1         1         0   100.00%
+    Statements                      11        11         0   100.00%
+    Toggles                         54        54         0   100.00%
+
+=================================================================================
+=== Instance: /fifo_tb_top/dut/r_sync
+=== Design Unit: work.synchronizer
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+    Toggles                         28        28         0   100.00%
+
+
+Total Coverage By Instance (filtered view): 90.00%
+

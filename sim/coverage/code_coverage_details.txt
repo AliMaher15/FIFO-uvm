@@ -1,0 +1,370 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /fifo_tb_top/dut/fifomem_0
+=== Design Unit: work.fifo_memory
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /fifo_tb_top/dut/fifomem_0
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ../../rtl/fifo_memory.v
+------------------------------------IF Branch------------------------------------
+    23                                      1021     Count coming in to IF
+    23              1                        359     
+                                             662     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       2         1         1    50.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /fifo_tb_top/dut/fifomem_0 --
+
+  File ../../rtl/fifo_memory.v
+----------------Focused Condition View-------------------
+Line       23 Item    1  (w_en && ~w_full)
+Condition totals: 1 of 2 input terms covered = 50.00%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+        w_en         Y
+      w_full         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          3  w_en_0                -                             
+  Row   2:          3  w_en_1                ~w_full                       
+  Row   3:          3  w_full_0              w_en                          
+  Row   4:    ***0***  w_full_1              w_en                          
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       3         3         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /fifo_tb_top/dut/fifomem_0 --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ../../rtl/fifo_memory.v
+    21              1                       1021     
+    25              1                        359     
+    30              1                        717     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         50        50         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /fifo_tb_top/dut/fifomem_0 --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+
+Total Node Count     =         25 
+Toggled Node Count   =         25 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (50 of 50 bins)
+
+=================================================================================
+=== Instance: /fifo_tb_top/dut/w_ptr_full_0
+=== Design Unit: work.w_ptr_full
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         4         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /fifo_tb_top/dut/w_ptr_full_0
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ../../rtl/w_ptr_full.v
+------------------------------------IF Branch------------------------------------
+    18                                       721     Count coming in to IF
+    18              1                         10     
+    21              1                        711     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    46                                      1225     Count coming in to IF
+    46              1                         10     
+    50              1                       1215     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      1         1         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /fifo_tb_top/dut/w_ptr_full_0 --
+
+  File ../../rtl/w_ptr_full.v
+----------------Focused Expression View-----------------
+Line       52 Item    1  (w_gray_next == {~r_ptr[3:2],r_ptr[1:0]})
+Expression totals: 1 of 1 input term covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      11        11         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /fifo_tb_top/dut/w_ptr_full_0 --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ../../rtl/w_ptr_full.v
+    17              1                        721     
+    19              1                         10     
+    20              1                         10     
+    22              1                        711     
+    23              1                        711     
+    28              1                        367     
+    31              1                       1380     
+    33              1                        433     
+    44              1                       1225     
+    48              1                         10     
+    52              1                       1215     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         54        54         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /fifo_tb_top/dut/w_ptr_full_0 --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+
+Total Node Count     =         27 
+Toggled Node Count   =         27 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (54 of 54 bins)
+
+=================================================================================
+=== Instance: /fifo_tb_top/dut/w_sync_0
+=== Design Unit: work.synchronizer
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /fifo_tb_top/dut/w_sync_0
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ../../rtl/synchronizer.v
+------------------------------------IF Branch------------------------------------
+    17                                      1068     Count coming in to IF
+    17              1                         10     
+    21              1                       1058     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       3         3         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /fifo_tb_top/dut/w_sync_0 --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ../../rtl/synchronizer.v
+    15              1                       1068     
+    19              1                         10     
+    23              1                       1058     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         28        28         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /fifo_tb_top/dut/w_sync_0 --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+
+Total Node Count     =         14 
+Toggled Node Count   =         14 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (28 of 28 bins)
+
+=================================================================================
+=== Instance: /fifo_tb_top/dut/r_ptr_empty_0
+=== Design Unit: work.r_ptr_empty
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         4         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /fifo_tb_top/dut/r_ptr_empty_0
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ../../rtl/r_ptr_empty.v
+------------------------------------IF Branch------------------------------------
+    18                                       543     Count coming in to IF
+    18              1                         10     
+    21              1                        533     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    37                                       635     Count coming in to IF
+    37              1                         10     
+    39              1                        625     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      1         1         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /fifo_tb_top/dut/r_ptr_empty_0 --
+
+  File ../../rtl/r_ptr_empty.v
+----------------Focused Expression View-----------------
+Line       40 Item    1  (r_gray_next == w_ptr)
+Expression totals: 1 of 1 input term covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      11        11         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /fifo_tb_top/dut/r_ptr_empty_0 --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ../../rtl/r_ptr_empty.v
+    17              1                        543     
+    19              1                         10     
+    20              1                         10     
+    22              1                        533     
+    23              1                        533     
+    27              1                        358     
+    30              1                        723     
+    32              1                        706     
+    36              1                        635     
+    38              1                         10     
+    40              1                        625     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         54        54         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /fifo_tb_top/dut/r_ptr_empty_0 --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+
+Total Node Count     =         27 
+Toggled Node Count   =         27 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (54 of 54 bins)
+
+=================================================================================
+=== Instance: /fifo_tb_top/dut/r_sync
+=== Design Unit: work.synchronizer
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /fifo_tb_top/dut/r_sync
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ../../rtl/synchronizer.v
+------------------------------------IF Branch------------------------------------
+    17                                       580     Count coming in to IF
+    17              1                         10     
+    21              1                        570     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       3         3         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /fifo_tb_top/dut/r_sync --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ../../rtl/synchronizer.v
+    15              1                        580     
+    19              1                         10     
+    23              1                        570     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         28        28         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /fifo_tb_top/dut/r_sync --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+
+Total Node Count     =         14 
+Toggled Node Count   =         14 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (28 of 28 bins)
+
+
+Total Coverage By Instance (filtered view): 90.00%
+

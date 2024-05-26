@@ -1,0 +1,67 @@
+# ../../rtl
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 20:25:18 on May 26,2024
+# vlog ../../rtl/fifo_memory.v ../../rtl/fifo_tb.v ../../rtl/fifo_top.v ../../rtl/r_ptr_empty.v ../../rtl/synchronizer.v ../../rtl/w_ptr_full.v 
+# -- Compiling module fifo_memory
+# -- Compiling module fifo_tb
+# -- Compiling module fifo_top
+# -- Compiling module r_ptr_empty
+# -- Compiling module synchronizer
+# -- Compiling module w_ptr_full
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 20:25:18 on May 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# ../../tb
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 20:25:18 on May 26,2024
+# vlog ../../tb/fifo_tb_top.sv 
+# -- Compiling interface rst_intf
+# -- Compiling interface fifo_if
+# -- Compiling module fifo_tb_top
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Note: (vlog-2286) ../../tb/fifo_tb_top.sv(9): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# 
+# Top level modules:
+# 	fifo_tb_top
+# End time: 20:25:18 on May 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vopt 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 20:25:18 on May 26,2024
+# vopt fifo_tb_top -o top_opt "+acc" "+cover" 
+# 
+# Top level modules:
+# 	fifo_tb_top
+# 
+# Analyzing design...
+# -- Loading module fifo_tb_top
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# -- Loading package mtiUvm.questa_uvm_pkg
+# -- Loading interface fifo_if
+# -- Loading interface rst_intf
+# -- Loading module fifo_top
+# -- Loading module fifo_memory
+# -- Loading module w_ptr_full
+# -- Loading module synchronizer
+# -- Loading module r_ptr_empty
+# ** Warning: (vopt-13408) Code coverage will be disabled for some DUs/packages/classes and source files.
+# Optimizing 12 design-units (inlining 0/10 module instances):
+# -- Optimizing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)(fast)
+# -- Optimizing package mtiUvm.questa_uvm_pkg(fast)
+# -- Optimizing module fifo_tb_top(fast)
+# -- Optimizing module w_ptr_full(fast)
+# -- Optimizing module r_ptr_empty(fast)
+# -- Optimizing module fifo_top(fast)
+# -- Optimizing module fifo_memory(fast)
+# -- Optimizing module synchronizer(fast)
+# -- Optimizing interface fifo_if(fast__2)
+# -- Optimizing interface rst_intf(fast__2)
+# -- Optimizing interface rst_intf(fast)
+# -- Optimizing interface fifo_if(fast)
+# Optimized design name is top_opt
+# End time: 20:25:22 on May 26,2024, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 1
+# fifo_rand_test
+# active_reset_test
+# idle_reset_test
